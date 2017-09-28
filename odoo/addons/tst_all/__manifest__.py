@@ -5,8 +5,8 @@
     'name': "Test",
     'description': """
         Odoo aplication for Test""",
-    'author': 'ACSONE SA/NV',
-    'website': "http://acsone.eu",
+    'author': 'MATRUM SA',
+    'website': "http://metrum.lu",
     'category': 'Test',
     'version': '10.0.1.0.0',
     'license': 'AGPL-3',
@@ -14,13 +14,7 @@
         # Test open source addons
         # !!! no odoo enterprise addons dependencies !!!
         # OCA/server-tools
-        'base_optional_quick_create',
-        'mail_environment',
-        'server_environment_ir_config_parameter',
-        # OCA/web
-        'web_dialog_size',
-        'web_environment_ribbon',
-        'web_sheet_full_width',
+        'contacts',
     ],
     'data': [
     ],

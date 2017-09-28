@@ -2,8 +2,8 @@
 
 # odoo
 -r https://raw.githubusercontent.com/odoo/odoo/10.0/requirements.txt
--e git+ssh://git@github.com/acsone/odoo.git@10.0-tst_master#egg=odoo
--e git+ssh://git@github.com/acsone/enterprise.git@10.0-tst_master#egg=odoo-addons-enterprise&subdirectory=setup
+-e git+ssh://git@github.com/resultrum/odoo.git@10.0-tst_master-ppe#egg=odoo
+-e git+ssh://git@github.com/resultrum/enterprise.git@10.0-tst_master-ppe#egg=odoo-addons-enterprise&subdirectory=setup
 
 # patched ACSONE addons
 # ...
